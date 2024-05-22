@@ -3,7 +3,6 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-
   <div class="container">
     <HelloWorld  />
   </div>
@@ -15,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
   width: 100vw;
   background-image: url('./assets/images/background-pattern-desktop.svg');
   background-repeat: no-repeat;
-
+  background-size: contain;
   display: flex;
   justify-content: center;
 
